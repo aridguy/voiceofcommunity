@@ -31,6 +31,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="payment.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         <!-- Spinner End -->
         <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0" style="background-color: black">
                 <a href="" class="navbar-brand p-0">
-                    <h1 style="font-size: 12px;" class="text-primary m-0">VOICE OF COMMUNITY</h1>
+                    <h1 style="font-size: 12px;" class="text-primary m-0">SAFE GAZA COMMUNITY</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -51,7 +52,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                       <a href="../index.html" class="nav-item nav-link">VOC</a>
+                       <a href="../index.html" class="nav-item nav-link">Save Gaza</a>
                         <a href="../about.html" class="nav-item nav-link">About</a>
                        <!--  <a href="about.html" class="nav-item nav-link">About</a> -->
                       <!--   <a href="service.html" class="nav-item nav-link">Service</a>
@@ -66,7 +67,7 @@
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 180px">
                     <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">FastPay</h5> -->
                     <h1 class="mb-5">Lets have your donation</h1>
-                    <i style="position: relative; bottom: 50px;">be part of the greater cause, lets help the helpless in ukraine, your donations will go a <br>long way to helping a lot of stranded families in ukraine.</i>
+                    <i style="position: relative; bottom: 50px;">be part of the greater cause, lets help the helpless in gaza, your donations will go a <br>long way to helping a lot of stranded families in gaza.</i>
                 </div>
             
        <!-- Navbar & Hero Start -->
@@ -81,7 +82,7 @@
                          <div class="col-md-3">
                              <img width="100%" src="https://images.hindustantimes.com/img/2022/03/02/1600x900/Tokyo_1645865251729_1646203186444.jpg">
                          </div>
-                        <div class="col-md-6"><p>You're donating to help the stranded and helpless <b>Ukraine citizens</b>, both in the countries and the ukranian refugees</p></div>
+                        <div class="col-md-6"><p>You're donating to help the stranded and helpless <b>Gaza citizens</b>, both in the countries and the Gaza refugees</p></div>
                         <div class="col-md-3"></div>
                     </div> <!-- ends top -->
 
@@ -91,13 +92,13 @@
                           <!-- enter donation amount here -->
                     <div class="form-donation">
 
-                        <form action="../index.html">
+                        <form>
                             <label style="position: relative;top:48px"><b>Enter your donations</b></label>
                             <span style="position: relative;right: -19px;top: 57px; font-size: 30px">$</span>
                             <input value=".00" type="text" name="donation" id="donation-box" class="form-control" style="height: 70px;text-align: right; font-size: 50px;" required="required"> <i style="color: red;" id="donation message">amount must be more than 5$</i> <p></p>
                             <!-- tip -->
-                            <h2>Tip Voice of community Services</h2>
-                            <i>The VOC is a 0% platform fee for individuals. voice of community will continue offering its services thanks to <b>donors who will leave an optional amount here for the organisation:</b></i> <br> <p></p>
+                            <h2>Tip Tip Save Gaza Community</h2>
+                            <i>The VOC is a 0% platform fee for individuals.  SaVe Gaza  community will continue offering its services thanks to <b>donors who will leave an optional amount here for the organisation:</b></i> <br> <p></p>
                             <div class="row">
                                 <div class="col-md-9">
                                     <i style="color: green">Optional</i>
@@ -108,7 +109,7 @@
                             <div class="row">
                                 <div class="col-md-3">
                                    <!--   <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5"> -->
-                                    <a type="submit" style="color: white" class="btn btn primary" href="fund.html">Proceed...</a>
+                                    <a onclick="doThis()" type="submit" style="color: white" class="btn btn primary" href="bitcoin-voc.html">Proceed...</a>
                                     <p>
                                         <i><a style="color: black" href="bitcoin-voc.html">click here to pay with bitcoin &nbsp;&nbsp;&nbsp; <i class="fab fa-bitcoin"></i></a></i>
                                     </p>
@@ -116,6 +117,15 @@
                                 <div class="col-md-9"></div>
                             </div>
                         </form>
+
+                        <script>
+                            function doThis(){
+ 
+                                alert('SORRY THIS PAYMENT OPTION IS CURRENTLY NOT AVAILABLE DUE TO THE CURRENT DISASTER IN (GAZA) KINDLY BEAR WITH US AS WE ARE TRYING OUR BEST TO MAKE SURE THIS COMES BACK TO NORMAL, FOR NOW KINDLY TRY OUT OUR OTHER PAYMENT OPTION, YOU WILL BE REDIRECTED');
+
+                            }
+                            
+                        </script>
 
                     </div>
                     </div>
@@ -139,9 +149,9 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="index.html">voiceofcommunity</a>, All Right Reserved.
+                            &copy; <a class="border-bottom" href="../index.html">save gaza community</a>, All Right Reserved.
                             By <a class="border-bottom" href="contact.html">Codex</a><br><br>
-                            Distributed By <a class="border-bottom" href="index.html" target="_blank">VOC</a>
+                            Distributed By <a class="border-bottom" href="../index.html" target="_blank">save gaza</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
@@ -155,21 +165,7 @@
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
 
-        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/62307f46a34c2456412b25d4/1fu8tbaqi';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -185,6 +181,7 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
 </body>
 
 </html>
